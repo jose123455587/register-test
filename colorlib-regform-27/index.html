@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>form-v1 by Colorlib</title>
+	<!-- Mobile Specific Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- Font-->
+	<link rel="stylesheet" type="text/css" href="css/opensans-font.css">
+	<link rel="stylesheet" type="text/css" href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+	<!-- Main Style Css -->
+	<link rel="stylesheet" href="css/style.css"/>
+	<link rel="stylesheet" type="text/css" href="css/example1.css" data-rel-css="" />
+	
+    <script src="https://js.stripe.com/v3/"></script>
+	<script src="js/index.js" data-rel-js></script>
+</head>
+<body>
+	<div class="page-content">
+		<div class="form-v1-content">
+			<div class="wizard-form">
+		        <form class="form-register" action="#" method="post">
+		        	<div id="form-total">
+		        		<!-- SECTION 1 -->
+			            <h2>
+			            	<p class="step-icon"><span>01</span></p>
+			            	<span class="step-text">Create Account</span>
+			            </h2>
+			            <section>
+			                <div class="inner">
+			                	<div class="wizard-header">
+									<h3 class="heading">Create your own account</h3>
+									<p>Start saving you Now.  </p>
+								</div>
+								<div class="form-row">
+									<div class="form-holder">
+										<fieldset>
+											<legend>First Name</legend>
+											<input type="text" class="form-control" id="first-name" name="first-name" placeholder="First Name" required>
+										</fieldset>
+									</div>
+									<div class="form-holder">
+										<fieldset>
+											<legend>Last Name</legend>
+											<input type="text" class="form-control" id="last-name" name="last-name" placeholder="Last Name" required>
+										</fieldset>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-holder">
+										<fieldset>
+											<legend>Your Username</legend>
+											<input type="text" class="form-control" id="username" name="usernmae" placeholder="Username" required>
+										</fieldset>
+									</div>
+									<div class="form-holder">
+										<legend>Domain</legend>
+										<select>
+											<option >@mmsecurity.pt</option>
+											</select>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-holder form-holder-2">
+										<fieldset>
+											<legend>Password</legend>
+											<input type="password" class="form-control" id="password" name="password" placeholder="Your password must have 8 characters" required>
+										</fieldset>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-holder form-holder-2">
+										<fieldset>
+											<legend>Confirm Password</legend>
+											<input type="password" class="form-control" id="cpassword" name="cpassword" placeholder="Confirm Your Password" required>
+										</fieldset>
+									</div>
+								</div>
+							</div>
+			            </section>
+						<!-- SECTION 2 -->
+			            <h2>
+			            	<p class="step-icon"><span>02</span></p>
+			            	<span class="step-text">Payment</span>
+			            </h2>
+			            <section>
+			                <div class="inner">
+			                	<div class="wizard-header">
+									<h3 class="heading">Payment</h3>
+									<p></p>
+								</div>
+								<div align="center">
+									<p> MM Security Visionary plan
+										 <br>10€/month</p>
+									</div>
+								<!--<div class="form-row">
+										<div class="form-holder form-holder-2">
+											<input type="radio" class="radio" name="radio1" id="plan-1" value="plan-1">
+											<div class="plan">
+												<p>MM Security Visionary</p>
+												<p> 10€/month</p>
+											</div>
+							</div>	
+							</div>-->
+							<div class="cell example example1" id="example-1">
+									<form>
+									  <fieldset>
+										<div class="row">
+										  <div id="example1-card"></div>
+										</div>
+									  </fieldset>
+									</form>
+								  </div>
+							
+						
+								  </div>
+		</div>
+	</div>
+	<script src="js/example1.js" data-rel-js></script>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/jquery.steps.js"></script>
+	<script src="js/main.js"></script>
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>
